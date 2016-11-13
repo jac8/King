@@ -1,4 +1,4 @@
-# [WaderTG](https://telegram.me/WaderTG)
+# [Anti spam/parsa ghafoori](https://telegram.me/anti_spam_group)
 
 # Features
 
