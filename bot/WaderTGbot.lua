@@ -642,21 +642,26 @@ Returns your specifications
 =========================
 #tophoto
 Become stickers to photos
+		new!
 =========================
 #tosticker
 Turn photos into stikers
+		new!
 =========================
 #conv[text]
 Text to photos
+		new!
 =========================
 #sticker[text]
 Text-to-sticker
+		new!
 =========================
 #office
 To show office user
 =========================
 #voice[text]
 Text-to-voice
+		new!
 =========================
 *Only from markes "!" , "/" , "#" use*
 Channel:@anti_spam_group
