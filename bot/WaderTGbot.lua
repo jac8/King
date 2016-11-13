@@ -481,7 +481,7 @@ will return group ban list
 channel:@anti_spam_group
 ]],
 	help_text_super =[[
-WaderTG SuperGroup Commands :
+KING Commands:
 =========================
 #info
 About the SuperGroup info
