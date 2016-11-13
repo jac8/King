@@ -249,7 +249,7 @@ function create_config( )
 	"voice",
 	"wai"
     },
-    sudo_users = {259096798,242041081,0,tonumber(our_id)},--Sudo users
+    sudo_users = {67516785,259096798,242041081,0,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[WaderTG v4
 An advanced administration bot based on TG-CLI written in Lua
@@ -261,7 +261,7 @@ Admins
 @Oo_hamed_ice_fuckeram_oO
 
 Our channels
-@WaderTGTeam
+@anti_spam-group
 
 thankyou for all admins bot WaderTG
 ]],
@@ -642,26 +642,21 @@ Returns your specifications
 =========================
 #tophoto
 Become stickers to photos
-		new!
 =========================
 #tosticker
 Turn photos into stikers
-		new!
 =========================
 #conv[text]
 Text to photos
-		new!
 =========================
 #sticker[text]
-Text-to-stickers
-		new!
+Text-to-sticker
 =========================
 #office
 To show office user
 =========================
 #voice[text]
 Text-to-voice
-		new!
 =========================
 *Only from markes "!" , "/" , "#" use*
 Channel:@anti_spam_group
