@@ -348,7 +348,7 @@ This command will send text to [group_id]
 
 *Only admins and sudo can use res, setowner, commands
 
-channel:@WaderTGTeam
+channel:@anti_spam_group
 ]],
     help_text = [[
 Commands list :
@@ -478,7 +478,7 @@ will return group ban list
 
 *Only owner can use res,setowner,promote,demote and log commands
 
-channel:@WaderTGTeam
+channel:@anti_spam_group
 ]],
 	help_text_super =[[
 WaderTG SuperGroup Commands :
@@ -642,24 +642,29 @@ Returns your specifications
 =========================
 #tophoto
 Become stickers to photos
+		new!
 =========================
 #tosticker
 Turn photos into stikers
+		new!
 =========================
 #conv[text]
 Text to photos
+		new!
 =========================
 #sticker[text]
 Text-to-stickers
+		new!
 =========================
 #office
 To show office user
 =========================
 #voice[text]
 Text-to-voice
+		new!
 =========================
 *Only from markes "!" , "/" , "#" use*
-Channel:@WaderTGTeam
+Channel:@anti_spam_group
 ]],
   }
   serialize_to_file(config, './data/config.lua')
