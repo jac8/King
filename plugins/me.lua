@@ -9,7 +9,7 @@ local info = '#Name : '..msg.from.first_name..'\n===================\n'
 ..'#Phone : +'..(msg.from.phone or '')..'\n===================\n'
 ..'#Username : telegram.me/'..(msg.from.username or '')..'\n===================\n'
 ..'#Group Id : '..msg.to.id..'\n===================\n'
-..'#Group name : '..msg.to.title..'\n===================\n@WaderTGTeam'
+..'#Group name : '..msg.to.title..'\n===================\n@anti_spam_group'
 
 reply_msg(reply_id, info, ok_cb, false)
 end
