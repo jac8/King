@@ -247,7 +247,9 @@ function create_config( )
 	"text2sticker",
 	"server",
 	"voice",
-	"wai"
+	"wai",
+"crector",
+"istyping"
     },
     sudo_users = {67516785,259096798,242041081,0,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
