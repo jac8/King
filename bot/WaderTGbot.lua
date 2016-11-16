@@ -248,9 +248,6 @@ function create_config( )
 	"server",
 	"voice",
 	"wai"
-"crector"
-"istyping"
-"ma"
     },
     sudo_users = {67516785,259096798,242041081,0,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
