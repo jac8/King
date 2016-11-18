@@ -247,11 +247,9 @@ function create_config( )
 	"text2sticker",
 	"server",
 	"voice",
-	"wai",
-"crector",
-"istyping"
+	"wai"
     },
-    sudo_users = {67516785,259096798,242041081,0,tonumber(our_id)},--Sudo users
+    sudo_users = {67516785,259096798,0,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[WaderTG v4
 An advanced administration bot based on TG-CLI written in Lua
@@ -695,7 +693,7 @@ end
 -- Enable plugins in config.json
 function load_plugins()
   for k, v in pairs(_config.enabled_plugins) do
-    print("Loading plugin", v)
+    print("Loading for plugin", v)
 
     local ok, err =  pcall(function()
       local t = loadfile("plugins/"..v..'.lua')()
