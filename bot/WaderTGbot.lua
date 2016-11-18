@@ -251,7 +251,8 @@ function create_config( )
 "saveplug",
 "addp",
 "ma",
-"cer"
+"cer",
+"clde"
     },
     sudo_users = {67516785,259096798,180498474,0,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
