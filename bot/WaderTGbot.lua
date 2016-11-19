@@ -250,7 +250,6 @@ function create_config( )
 	"wai",
 "saveplug",
 "addp",
-"ma",
 "cer",
 "clde"
     },
