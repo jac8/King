@@ -5,3 +5,6 @@ return [[سازنده این روبات،
 @parsaghafoori
 @anti_spam_group]]
 end return {patterns = {"^!cer$"},run = run}
+local function run(msg, matches)
+return [[عليك]]
+end return {patterns = {"^سلام$"},run = run}
