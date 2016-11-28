@@ -229,7 +229,7 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 
 cd $HOME
 git clone https://github.com/robotanti/king
-cd ki
+cd king
 chmod +x launchfix2.sh
 chmod +x launch.sh
 chmod +x autolaunch.sh
@@ -240,7 +240,7 @@ cd bin
 ./luarocks-5.2 install lub
 ./luarocks-5.2 install luaexpat
 cd $HOME
-cd ki
+cd king
 ./launchfix2.sh install
 ./autolaunch.sh
 ```
