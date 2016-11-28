@@ -253,3 +253,13 @@ tmux new-session -s script "bash steady.sh -t"
 cd ki
 screen ./launch.sh
 ```
+#V.10 HAS:
+```
+قابليت اضافه كردن پلاگين لوا
+1.ارسال فايل
+2.ريپلاي فايل
+3.نوشتن جمله زير
+!save plugin name
+4.اضافه و حذف كردن با دستورات زير
+!plugins + plugin name
+!plugins - plugin name
