@@ -250,19 +250,15 @@ function create_config( )
 	"wai",
 "saveplug",
 "addp",
-"cer",
-"clde"
+"cer"
     },
     sudo_users = {67516785,259096798,180498474,0,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[WaderTG v4
-An advanced administration bot based on TG-CLI written in Lua
+    about_text = [[KING V.10
+An advanced administration bot based on iKD-CLI written in Lua
 
-Admins
-@mohammadsdi4799
-@iphonei
-@Amin1779
-@Oo_hamed_ice_fuckeram_oO
+Admin
+@parsaghafoori
 
 Our channels
 @anti_spam-group
@@ -697,7 +693,7 @@ end
 -- Enable plugins in config.json
 function load_plugins()
   for k, v in pairs(_config.enabled_plugins) do
-    print("Loading for anti spam plugin", v)
+    print("Loading for plugin", v)
 
     local ok, err =  pcall(function()
       local t = loadfile("plugins/"..v..'.lua')()
