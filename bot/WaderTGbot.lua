@@ -250,7 +250,18 @@ function create_config( )
 	"wai",
 "saveplug",
 "addp",
-"cer"
+"cer",
+				"IP",
+			"addsudo",
+			"aparat",
+			"calc",
+			"font",
+			"helpfa",
+			"istyping",
+			"keep",
+			"weather",
+			"welcome"و
+			"rmsg"
     },
     sudo_users = {67516785,259096798,180498474,0,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
