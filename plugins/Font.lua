@@ -1,5 +1,5 @@
---Shared & Opened by @BeyondTeam
---#Dinn08
+--Shared & Opened by @anti_spam_group
+
 
 local function run(msg, matches)
 	if #matches < 2 then
@@ -77,7 +77,7 @@ local function run(msg, matches)
 		a=a+1
 		result_text = result_text..a.."- "..result[a].."\n\n"
 	end
-	return result_text.."______________________________\n@BeyondTeam"
+	return result_text.."______________________________\n@anti_spam_group"
 end
 
 return {
@@ -90,5 +90,4 @@ return {
 	run = run
 }
 
---Shared & Opened by @BeyondTeam
---#Dinn08
+
