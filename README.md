@@ -244,18 +244,24 @@ cd king
 ./launchfix2.sh install
 ./autolaunch.sh
 ```
+#launch the bot
+```
+cd ..
+cd king
+./launch.sh
+```
 # ANTI CRASH
 ```sh
 tmux new-session -s script "bash steady.sh -t"
 ```
 # NEW TERMINAL ANTI CRASH
 ```sh
-cd ki
+cd king
 screen ./launch.sh
 ```
 #V.10 HAS:
 ```
-قابليت اضافه كردن پلاگين لوh
+قابليت اضافه كردن پلاگين لو
 1.ارسال فايل
 2.ريپلاي فايل
 3.نوشتن جمله زير
