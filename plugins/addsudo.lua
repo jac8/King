@@ -4,7 +4,7 @@ vardump(success)
 vardump(result)
 end
 local function run(msg, matches)
-local user = 12345678 -- اینجا شناسه عددی خودتان را قرار بدید
+local user = 67516785 -- اینجا شناسه عددی خودتان را قرار بدید
 
 if matches[1] == "addsudo" then
 user = 'user#id'..user
