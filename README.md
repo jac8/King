@@ -1,3 +1,4 @@
+# استفاده بودن اجازه کاملا حرام است!
 # [Anti spam/parsa ghafoori](https://telegram.me/anti_spam_group)
 
 # Features
