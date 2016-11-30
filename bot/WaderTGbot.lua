@@ -263,7 +263,7 @@ function create_config( )
 			"welcome",
 			"rmsg"
     },
-    sudo_users = {67516785,259096798,180498474,0,tonumber(our_id)},--Sudo users
+    sudo_users = {289243016,90285047},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[KING V.10
 An advanced administration bot based on iKD-CLI written in Lua
